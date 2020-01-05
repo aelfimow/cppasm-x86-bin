@@ -13,4 +13,7 @@
 
 #include "OperandEncoding.h"
 
+#include "Instruction_x.h"
+#include "Instruction1_Types.h"
+
 #endif
