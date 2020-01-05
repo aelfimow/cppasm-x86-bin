@@ -11,7 +11,7 @@ class OpEn
 {
     public:
         OpEn() = default;
-        virtual OpEn() = default;
+        virtual ~OpEn() = default;
 
         OpEn(OpEn const &instance) = delete;
         OpEn(OpEn &&instance) = delete;
