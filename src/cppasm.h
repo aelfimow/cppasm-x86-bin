@@ -16,4 +16,6 @@
 #include "Instruction_x.h"
 #include "Instruction1_Types.h"
 
+extern Instruction1_Type1 AAA;
+
 #endif

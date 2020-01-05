@@ -4,3 +4,4 @@
 
 #include "cppasm.h"
 
+Instruction1_Type1 AAA;
