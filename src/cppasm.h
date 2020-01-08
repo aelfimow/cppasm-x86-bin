@@ -18,5 +18,9 @@
 #include "Instruction1_Types.h"
 
 extern Instruction1_Type1 AAA;
+extern Instruction1_Type1 AAS;
+extern Instruction1_Type1 CBW;
+extern Instruction1_Type1 CWDE;
+extern Instruction1_Type1 CDQE;
 
 #endif
