@@ -14,7 +14,13 @@ class Instruction_1 :
     public Op1
 {
     public:
-        Instruction_1() = default;
+        Instruction_1() = delete;
+
+        template <class A, class B> Instruction_1(A arg1, B arg2) :
+            Op1 { arg1, arg2 }
+        {
+        }
+
         ~Instruction_1() = default;
 
         using Op1::operator();
