@@ -22,5 +22,7 @@ extern Instruction1_Type1 AAS;
 extern Instruction1_Type1 CBW;
 extern Instruction1_Type1 CWDE;
 extern Instruction1_Type1 CDQE;
+extern Instruction1_Type1 CLC;
+extern Instruction1_Type1 CLD;
 
 #endif
