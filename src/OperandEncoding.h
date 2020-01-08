@@ -23,12 +23,23 @@ class OpEn
 class ZO: public OpEn
 {
     public:
-        ZO() = default;
+        ZO() = delete;
+
+        ZO(opcode_t opc, comment_t const &c) :
+            m_opc { opc },
+            m_c { c }
+        {
+        }
+
         virtual ~ZO() = default;
 
         void operator()()
         {
         }
+
+    private:
+        opcode_t const m_opc;
+        comment_t const m_c;
 };
 
 #endif
