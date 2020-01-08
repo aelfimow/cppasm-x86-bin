@@ -7,9 +7,10 @@
 #define CPPASM_H
 
 #include <string>
-#include <string_view>
 #include <vector>
 #include <initializer_list>
+
+#include "cppasm_types.h"
 
 #include "OperandEncoding.h"
 
