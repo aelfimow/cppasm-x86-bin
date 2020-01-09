@@ -31,5 +31,6 @@ extern Instruction1_Type1 CMPSB;
 extern Instruction1_Type1 CMPSW;
 extern Instruction1_Type1 CMPSD;
 extern Instruction1_Type1 CMPSQ;
+extern Instruction1_Type1 CPUID;
 
 #endif
