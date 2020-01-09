@@ -12,3 +12,4 @@ Instruction1_Type1 CDQE { 0x98, "CDQE - Convert Doubleword to Quadword" };
 Instruction1_Type1 CLC { 0xF8, "CLC - Clear Carry Flag" };
 Instruction1_Type1 CLD { 0xFC, "CLD - Clear Direction Flag" };
 Instruction1_Type1 CLI { 0xFA, "CLI - Clear Interrupt Flag" };
+Instruction1_Type1 CLTS { 0x0F, 0x06, "CLTS - Clear Task-Switched Flag in CR0" };
