@@ -26,7 +26,21 @@ class ZO: public OpEn
         ZO() = delete;
 
         ZO(opcode_t opc, comment_t const &c) :
+            m_1 { true },
             m_opc { opc },
+            m_2 { false },
+            m_opc1 { },
+            m_opc2 { },
+            m_c { c }
+        {
+        }
+
+        ZO(opcode_t opc1, opcode_t opc2, comment_t const &c) :
+            m_1 { false },
+            m_opc { },
+            m_2 { true },
+            m_opc1 { opc1 },
+            m_opc2 { opc2 },
             m_c { c }
         {
         }
@@ -38,7 +52,13 @@ class ZO: public OpEn
         }
 
     private:
+        bool const m_1;
         opcode_t const m_opc;
+
+        bool const m_2;
+        opcode_t const m_opc1;
+        opcode_t const m_opc2;
+
         comment_t const m_c;
 };
 
