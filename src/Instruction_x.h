@@ -21,6 +21,11 @@ class Instruction_1 :
         {
         }
 
+        template <class A, class B, class C> Instruction_1(A arg1, B arg2, C arg3) :
+            Op1 { arg1, arg2, arg3 }
+        {
+        }
+
         ~Instruction_1() = default;
 
         using Op1::operator();
