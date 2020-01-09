@@ -11,3 +11,4 @@ Instruction1_Type1 CWDE { 0x98, "CWDE - Convert Word to Doubleword" };
 Instruction1_Type1 CDQE { 0x98, "CDQE - Convert Doubleword to Quadword" };
 Instruction1_Type1 CLC { 0xF8, "CLC - Clear Carry Flag" };
 Instruction1_Type1 CLD { 0xFC, "CLD - Clear Direction Flag" };
+Instruction1_Type1 CLI { 0xFA, "CLI - Clear Interrupt Flag" };
