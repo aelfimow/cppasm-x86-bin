@@ -14,3 +14,7 @@ Instruction1_Type1 CLD { 0xFC, "CLD - Clear Direction Flag" };
 Instruction1_Type1 CLI { 0xFA, "CLI - Clear Interrupt Flag" };
 Instruction1_Type1 CLTS { 0x0F, 0x06, "CLTS - Clear Task-Switched Flag in CR0" };
 Instruction1_Type1 CMC { 0xF5, "CMC - Complement Carry Flag" };
+Instruction1_Type1 CMPSB { 0xA6, "CMPSB - Compare String Operands" };
+Instruction1_Type1 CMPSW { 0xA7, "CMPSW - Compare String Operands" };
+Instruction1_Type1 CMPSD { 0xA7, "CMPSD - Compare String Operands" };
+Instruction1_Type1 CMPSQ { 0xA7, "CMPSQ - Compare String Operands" };

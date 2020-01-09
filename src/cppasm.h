@@ -27,5 +27,9 @@ extern Instruction1_Type1 CLD;
 extern Instruction1_Type1 CLI;
 extern Instruction1_Type1 CLTS;
 extern Instruction1_Type1 CMC;
+extern Instruction1_Type1 CMPSB;
+extern Instruction1_Type1 CMPSW;
+extern Instruction1_Type1 CMPSD;
+extern Instruction1_Type1 CMPSQ;
 
 #endif
