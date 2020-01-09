@@ -13,3 +13,4 @@ Instruction1_Type1 CLC { 0xF8, "CLC - Clear Carry Flag" };
 Instruction1_Type1 CLD { 0xFC, "CLD - Clear Direction Flag" };
 Instruction1_Type1 CLI { 0xFA, "CLI - Clear Interrupt Flag" };
 Instruction1_Type1 CLTS { 0x0F, 0x06, "CLTS - Clear Task-Switched Flag in CR0" };
+Instruction1_Type1 CMC { 0xF5, "CMC - Complement Carry Flag" };
