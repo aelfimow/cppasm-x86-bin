@@ -43,5 +43,7 @@ extern Instruction1_Type1 ENDBR64;
 extern Instruction1_Type1 F2XM1;
 extern Instruction1_Type1 FABS;
 extern Instruction1_Type1 FCHS;
+extern Instruction1_Type1 FCLEX;
+extern Instruction1_Type1 FNCLEX;
 
 #endif
