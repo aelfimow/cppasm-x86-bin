@@ -35,5 +35,6 @@ extern Instruction1_Type1 CPUID;
 extern Instruction1_Type1 CWD;
 extern Instruction1_Type1 CDQ;
 extern Instruction1_Type1 CQO;
+extern Instruction1_Type1 DAA;
 
 #endif
