@@ -38,5 +38,7 @@ extern Instruction1_Type1 CQO;
 extern Instruction1_Type1 DAA;
 extern Instruction1_Type1 DAS;
 extern Instruction1_Type1 EMMS;
+extern Instruction1_Type1 ENDBR32;
+extern Instruction1_Type1 ENDBR64;
 
 #endif
