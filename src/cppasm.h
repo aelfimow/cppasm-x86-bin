@@ -32,5 +32,8 @@ extern Instruction1_Type1 CMPSW;
 extern Instruction1_Type1 CMPSD;
 extern Instruction1_Type1 CMPSQ;
 extern Instruction1_Type1 CPUID;
+extern Instruction1_Type1 CWD;
+extern Instruction1_Type1 CDQ;
+extern Instruction1_Type1 CQO;
 
 #endif

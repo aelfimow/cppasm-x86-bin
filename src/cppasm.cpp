@@ -19,3 +19,6 @@ Instruction1_Type1 CMPSW { 0xA7, "CMPSW - Compare String Operands" };
 Instruction1_Type1 CMPSD { 0xA7, "CMPSD - Compare String Operands" };
 Instruction1_Type1 CMPSQ { 0xA7, "CMPSQ - Compare String Operands" };
 Instruction1_Type1 CPUID { 0x0F, 0xA2, "CPUID - CPU Identification" };
+Instruction1_Type1 CWD { 0x99, "CWD: Convert Word to Doubleword" };
+Instruction1_Type1 CDQ { 0x99, "CDQ: Convert Convert Doubleword to Quadword" };
+Instruction1_Type1 CQO { 0x99, "CQO: Convert Quadword to Octaword" };
