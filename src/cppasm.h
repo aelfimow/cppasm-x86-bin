@@ -41,5 +41,6 @@ extern Instruction1_Type1 EMMS;
 extern Instruction1_Type1 ENDBR32;
 extern Instruction1_Type1 ENDBR64;
 extern Instruction1_Type1 F2XM1;
+extern Instruction1_Type1 FABS;
 
 #endif
