@@ -36,5 +36,6 @@ extern Instruction1_Type1 CWD;
 extern Instruction1_Type1 CDQ;
 extern Instruction1_Type1 CQO;
 extern Instruction1_Type1 DAA;
+extern Instruction1_Type1 DAS;
 
 #endif

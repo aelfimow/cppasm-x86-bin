@@ -23,3 +23,4 @@ Instruction1_Type1 CWD { 0x99, "CWD: Convert Word to Doubleword" };
 Instruction1_Type1 CDQ { 0x99, "CDQ: Convert Convert Doubleword to Quadword" };
 Instruction1_Type1 CQO { 0x99, "CQO: Convert Quadword to Octaword" };
 Instruction1_Type1 DAA { 0x27, "DAA: Decimal Adjust AL after Addition" };
+Instruction1_Type1 DAS { 0x2F, "DAS: Decimal Adjust AL after Subtraction" };
