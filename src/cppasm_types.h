@@ -8,6 +8,8 @@
 
 #include <cstdint>
 #include <string_view>
+#include <vector>
+#include <initializer_list>
 
 /*! Operation code type  */
 using opcode_t = int;
