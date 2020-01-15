@@ -16,13 +16,8 @@ class Instruction_1 :
     public:
         Instruction_1() = delete;
 
-        template <class A, class B> Instruction_1(A arg1, B arg2) :
-            Op1 { arg1, arg2 }
-        {
-        }
-
-        template <class A, class B, class C> Instruction_1(A arg1, B arg2, C arg3) :
-            Op1 { arg1, arg2, arg3 }
+        Instruction_1(std::initializer_list<opcode_t> const &opc, comment_t const &c) :
+            Op1 { opc, c }
         {
         }
 
