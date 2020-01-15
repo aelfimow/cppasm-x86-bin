@@ -27,3 +27,4 @@ Instruction1_Type1 DAS { { 0x2F }, "DAS: Decimal Adjust AL after Subtraction" };
 Instruction1_Type1 EMMS { { 0x0F, 0x77 }, "EMMS: Empty MMX Technology State" };
 Instruction1_Type1 ENDBR32 { { 0xF3, 0x0F, 0x1E, 0xFB }, "ENDBR32: Terminate an Indirect Branch in 32-bit and Compatibility Mode" };
 Instruction1_Type1 ENDBR64 { { 0xF3, 0x0F, 0x1E, 0xFA }, "ENDBR64: Terminate an Indirect Branch in 64-bit Mode" };
+Instruction1_Type1 F2XM1 { { 0xD9, 0xF0 }, "F2XM1: Compute 2^x - 1" };
