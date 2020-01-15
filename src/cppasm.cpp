@@ -32,3 +32,4 @@ Instruction1_Type1 FABS { { 0xD9, 0xE1 }, "FABS: Absolute Value" };
 Instruction1_Type1 FCHS { { 0xD9, 0xE0 }, "FCHS: Change Sign" };
 Instruction1_Type1 FCLEX { { 0x9B, 0xDB, 0xE2 }, "FCLEX: Clear Exceptions" };
 Instruction1_Type1 FNCLEX { { 0xDB, 0xE2 }, "FNCLEX: Clear Exceptions" };
+Instruction1_Type1 FCOS { { 0xD9, 0xFF }, "FCOS: Cosine" };
