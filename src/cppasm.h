@@ -47,5 +47,6 @@ extern Instruction1_Type1 FCLEX;
 extern Instruction1_Type1 FNCLEX;
 extern Instruction1_Type1 FCOS;
 extern Instruction1_Type1 FDECSTP;
+extern Instruction1_Type1 FINCSTP;
 
 #endif

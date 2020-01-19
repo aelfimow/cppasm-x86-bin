@@ -34,3 +34,4 @@ Instruction1_Type1 FCLEX { { 0x9B, 0xDB, 0xE2 }, "FCLEX: Clear Exceptions" };
 Instruction1_Type1 FNCLEX { { 0xDB, 0xE2 }, "FNCLEX: Clear Exceptions" };
 Instruction1_Type1 FCOS { { 0xD9, 0xFF }, "FCOS: Cosine" };
 Instruction1_Type1 FDECSTP { { 0xD9, 0xF6 }, "FDECSTP: Decrement Stack-Top Pointer" };
+Instruction1_Type1 FINCSTP { { 0xD9, 0xF7 }, "FINCSTP: Increment Stack-Top Pointer" };
