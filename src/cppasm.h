@@ -62,5 +62,6 @@ extern Instruction1_Type1 FPATAN;
 extern Instruction1_Type1 FPREM;
 extern Instruction1_Type1 FPREM1;
 extern Instruction1_Type1 FPTAN;
+extern Instruction1_Type1 FRNDINT;
 
 #endif
