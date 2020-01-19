@@ -58,5 +58,6 @@ extern Instruction1_Type1 FLDLG2;
 extern Instruction1_Type1 FLDLN2;
 extern Instruction1_Type1 FLDZ;
 extern Instruction1_Type1 FNOP;
+extern Instruction1_Type1 FPATAN;
 
 #endif
