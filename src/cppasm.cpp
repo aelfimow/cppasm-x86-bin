@@ -50,3 +50,4 @@ Instruction1_Type1 FPREM { { 0xD9, 0xF8 }, "FPREM: Partial Remainder" };
 Instruction1_Type1 FPREM1 { { 0xD9, 0xF5 }, "FPREM1: Partial Remainder" };
 Instruction1_Type1 FPTAN { { 0xD9, 0xF2 }, "FPTAN: Partial Tangent" };
 Instruction1_Type1 FRNDINT { { 0xD9, 0xFC }, "FRNDINT: Round to Integer" };
+Instruction1_Type1 FSCALE { { 0xD9, 0xFD }, "FSCALE: Scale" };
