@@ -14,6 +14,9 @@
 /*! Operation code type  */
 using opcode_t = int;
 
+/*! Operation code sequence type  */
+using opcode_seq_t = std::initializer_list<opcode_t>;
+
 /*! Comment strings type  */
 using comment_t = std::string_view;
 
