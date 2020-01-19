@@ -25,7 +25,7 @@ class ZO: public OpEn
     public:
         ZO() = delete;
 
-        ZO(std::initializer_list<opcode_t> const &opc, comment_t const &c) :
+        ZO(opcode_seq_t const &opc, comment_t const &c) :
             m_opc { opc },
             m_c { c }
         {

@@ -16,7 +16,7 @@ class Instruction_1 :
     public:
         Instruction_1() = delete;
 
-        Instruction_1(std::initializer_list<opcode_t> const &opc, comment_t const &c) :
+        Instruction_1(opcode_seq_t const &opc, comment_t const &c) :
             Op1 { opc, c }
         {
         }
