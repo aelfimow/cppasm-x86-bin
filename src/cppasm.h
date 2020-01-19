@@ -66,5 +66,6 @@ extern Instruction1_Type1 FRNDINT;
 extern Instruction1_Type1 FSCALE;
 extern Instruction1_Type1 FSINCOS;
 extern Instruction1_Type1 FSQRT;
+extern Instruction1_Type1 FTST;
 
 #endif

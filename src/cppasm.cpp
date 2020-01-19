@@ -53,3 +53,4 @@ Instruction1_Type1 FRNDINT { { 0xD9, 0xFC }, "FRNDINT: Round to Integer" };
 Instruction1_Type1 FSCALE { { 0xD9, 0xFD }, "FSCALE: Scale" };
 Instruction1_Type1 FSINCOS { { 0xD9, 0xFB }, "FSINCOS: Sine and Cosine" };
 Instruction1_Type1 FSQRT { { 0xD9, 0xFA }, "FSQRT: Square Root" };
+Instruction1_Type1 FTST { { 0xD9, 0xE4 }, "FTST: Test" };
