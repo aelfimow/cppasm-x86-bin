@@ -50,5 +50,12 @@ extern Instruction1_Type1 FDECSTP;
 extern Instruction1_Type1 FINCSTP;
 extern Instruction1_Type1 FINIT;
 extern Instruction1_Type1 FNINIT;
+extern Instruction1_Type1 FLD1;
+extern Instruction1_Type1 FLDL2T;
+extern Instruction1_Type1 FLDL2E;
+extern Instruction1_Type1 FLDPI;
+extern Instruction1_Type1 FLDLG2;
+extern Instruction1_Type1 FLDLN2;
+extern Instruction1_Type1 FLDZ;
 
 #endif

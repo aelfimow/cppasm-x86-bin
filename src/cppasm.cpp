@@ -37,3 +37,10 @@ Instruction1_Type1 FDECSTP { { 0xD9, 0xF6 }, "FDECSTP: Decrement Stack-Top Point
 Instruction1_Type1 FINCSTP { { 0xD9, 0xF7 }, "FINCSTP: Increment Stack-Top Pointer" };
 Instruction1_Type1 FINIT { { 0x9B, 0xDB, 0xE3 }, "FINIT: Initialize Floating-Point Unit" };
 Instruction1_Type1 FNINIT { { 0xDB, 0xE3 }, "FNINIT: Initialize Floating-Point Unit" };
+Instruction1_Type1 FLD1 { { 0xD9, 0xE8 }, "FLD1: Load Constant" };
+Instruction1_Type1 FLDL2T { { 0xD9, 0xE9 }, "FLDL2T: Load Constant" };
+Instruction1_Type1 FLDL2E { { 0xD9, 0xEA }, "FLDL2E: Load Constant" };
+Instruction1_Type1 FLDPI { { 0xD9, 0xEB }, "FLDPI: Load Constant" };
+Instruction1_Type1 FLDLG2 { { 0xD9, 0xEC }, "FLDLG2: Load Constant" };
+Instruction1_Type1 FLDLN2 { { 0xD9, 0xED }, "FLDLN2: Load Constant" };
+Instruction1_Type1 FLDZ { { 0xD9, 0xEE }, "FLDZ: Load Constant" };
