@@ -56,3 +56,5 @@ Instruction1_Type1 FSQRT { { 0xD9, 0xFA }, "FSQRT: Square Root" };
 Instruction1_Type1 FTST { { 0xD9, 0xE4 }, "FTST: Test" };
 Instruction1_Type1 FXAM { { 0xD9, 0xE5 }, "FXAM: Examine Floating-Point" };
 Instruction1_Type1 FXTRACT { { 0xD9, 0xF4 }, "FXTRACT: Extract Exponent and Significand" };
+Instruction1_Type1 FYL2X { { 0xD9, 0xF1 }, "FYL2X: Compute y * log2x" };
+Instruction1_Type1 FYL2XP1 { { 0xD9, 0xF9 }, "FYL2XP1: Compute y * log2(x +1)" };
