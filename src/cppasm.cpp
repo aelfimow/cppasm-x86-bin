@@ -63,3 +63,6 @@ Instruction1_Type1 INT0 { { 0xCE }, "INT0" };
 Instruction1_Type1 INT1 { { 0xF1 }, "INT1" };
 Instruction1_Type1 INT3 { { 0xCC }, "INT3" };
 Instruction1_Type1 INVD { { 0x0F, 0x08 }, "INVD: Invalidate Internal Caches" };
+Instruction1_Type1 IRET { { 0xCF }, "IRET: Interrupt Return" };
+Instruction1_Type1 IRETD { { 0xCF }, "IRETD: Interrupt Return" };
+Instruction1_Type1 IRETQ { { 0xCF }, "IRETQ: Interrupt Return" };
