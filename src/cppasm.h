@@ -79,5 +79,6 @@ extern Instruction1_Type1 INVD;
 extern Instruction1_Type1 IRET;
 extern Instruction1_Type1 IRETD;
 extern Instruction1_Type1 IRETQ;
+extern Instruction1_Type1 LAHF;
 
 #endif
