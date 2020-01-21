@@ -69,3 +69,4 @@ Instruction1_Type1 IRETQ { { 0xCF }, "IRETQ: Interrupt Return" };
 Instruction1_Type1 LAHF { { 0x9F }, "LAHF: Load Status Flags into AH Register" };
 Instruction1_Type1 LEAVE { { 0xC9 }, "LEAVE: High Level Procedure Exit" };
 Instruction1_Type1 LFENCE { { 0x0F, 0xAE, 0xE8 }, "LFENCE: Load Fence" };
+Instruction1_Type1 LOCK { { 0xF0 }, "LOCK: Assert LOCK# Signal Prefix" };
