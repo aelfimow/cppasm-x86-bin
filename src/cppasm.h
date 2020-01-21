@@ -81,5 +81,6 @@ extern Instruction1_Type1 IRETD;
 extern Instruction1_Type1 IRETQ;
 extern Instruction1_Type1 LAHF;
 extern Instruction1_Type1 LEAVE;
+extern Instruction1_Type1 LFENCE;
 
 #endif
