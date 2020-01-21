@@ -59,3 +59,6 @@ Instruction1_Type1 FXTRACT { { 0xD9, 0xF4 }, "FXTRACT: Extract Exponent and Sign
 Instruction1_Type1 FYL2X { { 0xD9, 0xF1 }, "FYL2X: Compute y * log2x" };
 Instruction1_Type1 FYL2XP1 { { 0xD9, 0xF9 }, "FYL2XP1: Compute y * log2(x +1)" };
 Instruction1_Type1 HLT { { 0xF4 }, "HLT: Halt" };
+Instruction1_Type1 INT0 { { 0xCE }, "INT0" };
+Instruction1_Type1 INT1 { { 0xF1 }, "INT1" };
+Instruction1_Type1 INT3 { { 0xCC }, "INT3" };
