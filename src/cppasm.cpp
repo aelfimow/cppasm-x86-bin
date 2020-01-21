@@ -62,3 +62,4 @@ Instruction1_Type1 HLT { { 0xF4 }, "HLT: Halt" };
 Instruction1_Type1 INT0 { { 0xCE }, "INT0" };
 Instruction1_Type1 INT1 { { 0xF1 }, "INT1" };
 Instruction1_Type1 INT3 { { 0xCC }, "INT3" };
+Instruction1_Type1 INVD { { 0x0F, 0x08 }, "INVD: Invalidate Internal Caches" };

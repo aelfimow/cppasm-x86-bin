@@ -75,5 +75,6 @@ extern Instruction1_Type1 HLT;
 extern Instruction1_Type1 INT0;
 extern Instruction1_Type1 INT1;
 extern Instruction1_Type1 INT3;
+extern Instruction1_Type1 INVD;
 
 #endif
