@@ -71,5 +71,6 @@ extern Instruction1_Type1 FXAM;
 extern Instruction1_Type1 FXTRACT;
 extern Instruction1_Type1 FYL2X;
 extern Instruction1_Type1 FYL2XP1;
+extern Instruction1_Type1 HLT;
 
 #endif
