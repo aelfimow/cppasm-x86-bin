@@ -67,3 +67,4 @@ Instruction1_Type1 IRET { { 0xCF }, "IRET: Interrupt Return" };
 Instruction1_Type1 IRETD { { 0xCF }, "IRETD: Interrupt Return" };
 Instruction1_Type1 IRETQ { { 0xCF }, "IRETQ: Interrupt Return" };
 Instruction1_Type1 LAHF { { 0x9F }, "LAHF: Load Status Flags into AH Register" };
+Instruction1_Type1 LEAVE { { 0xC9 }, "LEAVE: High Level Procedure Exit" };
