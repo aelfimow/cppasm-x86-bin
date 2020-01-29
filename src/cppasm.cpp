@@ -58,6 +58,23 @@ r32 R13D { "R13D" };
 r32 R14D { "R14D" };
 r32 R15D { "R15D" };
 
+r64 RAX { "RAX" };
+r64 RBX { "RBX" };
+r64 RCX { "RCX" };
+r64 RDX { "RDX" };
+r64 RBP { "RBP" };
+r64 RSI { "RSI" };
+r64 RDI { "RDI" };
+r64 RSP { "RSP" };
+r64 R8 { "R8" };
+r64 R9 { "R9" };
+r64 R10 { "R10" };
+r64 R11 { "R11" };
+r64 R12 { "R12" };
+r64 R13 { "R13" };
+r64 R14 { "R14" };
+r64 R15 { "R15" };
+
 Instruction1_Type1 AAA { { 0x37 }, "AAA: ASCII Adjust After Addition" };
 Instruction1_Type1 AAS { { 0x3F }, "AAS: ASCII Adjust AL After Subtraction" };
 Instruction1_Type1 CBW { { 0x98 }, "CBW: Convert Byte to Word" };
