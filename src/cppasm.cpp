@@ -92,6 +92,23 @@ xmm XMM13 { "XMM13" };
 xmm XMM14 { "XMM14" };
 xmm XMM15 { "XMM15" };
 
+ymm YMM0 { "YMM0" };
+ymm YMM1 { "YMM1" };
+ymm YMM2 { "YMM2" };
+ymm YMM3 { "YMM3" };
+ymm YMM4 { "YMM4" };
+ymm YMM5 { "YMM5" };
+ymm YMM6 { "YMM6" };
+ymm YMM7 { "YMM7" };
+ymm YMM8 { "YMM8" };
+ymm YMM9 { "YMM9" };
+ymm YMM10 { "YMM10" };
+ymm YMM11 { "YMM11" };
+ymm YMM12 { "YMM12" };
+ymm YMM13 { "YMM13" };
+ymm YMM14 { "YMM14" };
+ymm YMM15 { "YMM15" };
+
 Instruction1_Type1 AAA { { 0x37 }, "AAA: ASCII Adjust After Addition" };
 Instruction1_Type1 AAS { { 0x3F }, "AAS: ASCII Adjust AL After Subtraction" };
 Instruction1_Type1 CBW { { 0x98 }, "CBW: Convert Byte to Word" };
