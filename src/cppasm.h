@@ -23,6 +23,7 @@
 #include "r64.h"
 #include "xmm.h"
 #include "ymm.h"
+#include "zmm.h"
 
 extern r8 AL;
 extern r8 AH;
@@ -128,6 +129,39 @@ extern ymm YMM12;
 extern ymm YMM13;
 extern ymm YMM14;
 extern ymm YMM15;
+
+extern zmm ZMM0;
+extern zmm ZMM1;
+extern zmm ZMM2;
+extern zmm ZMM3;
+extern zmm ZMM4;
+extern zmm ZMM5;
+extern zmm ZMM6;
+extern zmm ZMM7;
+extern zmm ZMM8;
+extern zmm ZMM9;
+extern zmm ZMM10;
+extern zmm ZMM11;
+extern zmm ZMM12;
+extern zmm ZMM13;
+extern zmm ZMM14;
+extern zmm ZMM15;
+extern zmm ZMM16;
+extern zmm ZMM17;
+extern zmm ZMM18;
+extern zmm ZMM19;
+extern zmm ZMM20;
+extern zmm ZMM21;
+extern zmm ZMM22;
+extern zmm ZMM23;
+extern zmm ZMM24;
+extern zmm ZMM25;
+extern zmm ZMM26;
+extern zmm ZMM27;
+extern zmm ZMM28;
+extern zmm ZMM29;
+extern zmm ZMM30;
+extern zmm ZMM31;
 
 extern Instruction1_Type1 AAA;
 extern Instruction1_Type1 AAS;
