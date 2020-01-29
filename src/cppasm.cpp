@@ -24,6 +24,23 @@ r8 R13L { "R13L" };
 r8 R14L { "R14L" };
 r8 R15L { "R15L" };
 
+r16 AX { "AX" };
+r16 BX { "BX" };
+r16 CX { "CX" };
+r16 DX { "DX" };
+r16 BP { "BP" };
+r16 SI { "SI" };
+r16 DI { "DI" };
+r16 SP { "SP" };
+r16 R8W { "R8W" };
+r16 R9W { "R9W" };
+r16 R10W { "R10W" };
+r16 R11W { "R11W" };
+r16 R12W { "R12W" };
+r16 R13W { "R13W" };
+r16 R14W { "R14W" };
+r16 R15W { "R15W" };
+
 Instruction1_Type1 AAA { { 0x37 }, "AAA: ASCII Adjust After Addition" };
 Instruction1_Type1 AAS { { 0x3F }, "AAS: ASCII Adjust AL After Subtraction" };
 Instruction1_Type1 CBW { { 0x98 }, "CBW: Convert Byte to Word" };

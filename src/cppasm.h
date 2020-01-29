@@ -18,6 +18,7 @@
 #include "Instruction1_Types.h"
 
 #include "r8.h"
+#include "r16.h"
 
 extern r8 AL;
 extern r8 AH;
@@ -38,6 +39,23 @@ extern r8 R12L;
 extern r8 R13L;
 extern r8 R14L;
 extern r8 R15L;
+
+extern r16 AX;
+extern r16 BX;
+extern r16 CX;
+extern r16 DX;
+extern r16 BP;
+extern r16 SI;
+extern r16 DI;
+extern r16 SP;
+extern r16 R8W;
+extern r16 R9W;
+extern r16 R10W;
+extern r16 R11W;
+extern r16 R12W;
+extern r16 R13W;
+extern r16 R14W;
+extern r16 R15W;
 
 extern Instruction1_Type1 AAA;
 extern Instruction1_Type1 AAS;
