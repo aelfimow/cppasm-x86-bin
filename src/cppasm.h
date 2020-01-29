@@ -19,6 +19,7 @@
 
 #include "r8.h"
 #include "r16.h"
+#include "r32.h"
 
 extern r8 AL;
 extern r8 AH;
@@ -56,6 +57,23 @@ extern r16 R12W;
 extern r16 R13W;
 extern r16 R14W;
 extern r16 R15W;
+
+extern r32 EAX;
+extern r32 EBX;
+extern r32 ECX;
+extern r32 EDX;
+extern r32 EBP;
+extern r32 ESI;
+extern r32 EDI;
+extern r32 ESP;
+extern r32 R8D;
+extern r32 R9D;
+extern r32 R10D;
+extern r32 R11D;
+extern r32 R12D;
+extern r32 R13D;
+extern r32 R14D;
+extern r32 R15D;
 
 extern Instruction1_Type1 AAA;
 extern Instruction1_Type1 AAS;

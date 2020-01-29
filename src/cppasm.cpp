@@ -41,6 +41,23 @@ r16 R13W { "R13W" };
 r16 R14W { "R14W" };
 r16 R15W { "R15W" };
 
+r32 EAX { "EAX" };
+r32 EBX { "EBX" };
+r32 ECX { "ECX" };
+r32 EDX { "EDX" };
+r32 EBP { "EBP" };
+r32 ESI { "ESI" };
+r32 EDI { "EDI" };
+r32 ESP { "ESP" };
+r32 R8D { "R8D" };
+r32 R9D { "R9D" };
+r32 R10D { "R10D" };
+r32 R11D { "R11D" };
+r32 R12D { "R12D" };
+r32 R13D { "R13D" };
+r32 R14D { "R14D" };
+r32 R15D { "R15D" };
+
 Instruction1_Type1 AAA { { 0x37 }, "AAA: ASCII Adjust After Addition" };
 Instruction1_Type1 AAS { { 0x3F }, "AAS: ASCII Adjust AL After Subtraction" };
 Instruction1_Type1 CBW { { 0x98 }, "CBW: Convert Byte to Word" };
