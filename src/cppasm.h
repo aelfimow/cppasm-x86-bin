@@ -21,6 +21,7 @@
 #include "r16.h"
 #include "r32.h"
 #include "r64.h"
+#include "xmm.h"
 
 extern r8 AL;
 extern r8 AH;
@@ -92,6 +93,23 @@ extern r64 R12;
 extern r64 R13;
 extern r64 R14;
 extern r64 R15;
+
+extern xmm XMM0;
+extern xmm XMM1;
+extern xmm XMM2;
+extern xmm XMM3;
+extern xmm XMM4;
+extern xmm XMM5;
+extern xmm XMM6;
+extern xmm XMM7;
+extern xmm XMM8;
+extern xmm XMM9;
+extern xmm XMM10;
+extern xmm XMM11;
+extern xmm XMM12;
+extern xmm XMM13;
+extern xmm XMM14;
+extern xmm XMM15;
 
 extern Instruction1_Type1 AAA;
 extern Instruction1_Type1 AAS;

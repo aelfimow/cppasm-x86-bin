@@ -75,6 +75,23 @@ r64 R13 { "R13" };
 r64 R14 { "R14" };
 r64 R15 { "R15" };
 
+xmm XMM0 { "XMM0" };
+xmm XMM1 { "XMM1" };
+xmm XMM2 { "XMM2" };
+xmm XMM3 { "XMM3" };
+xmm XMM4 { "XMM4" };
+xmm XMM5 { "XMM5" };
+xmm XMM6 { "XMM6" };
+xmm XMM7 { "XMM7" };
+xmm XMM8 { "XMM8" };
+xmm XMM9 { "XMM9" };
+xmm XMM10 { "XMM10" };
+xmm XMM11 { "XMM11" };
+xmm XMM12 { "XMM12" };
+xmm XMM13 { "XMM13" };
+xmm XMM14 { "XMM14" };
+xmm XMM15 { "XMM15" };
+
 Instruction1_Type1 AAA { { 0x37 }, "AAA: ASCII Adjust After Addition" };
 Instruction1_Type1 AAS { { 0x3F }, "AAS: ASCII Adjust AL After Subtraction" };
 Instruction1_Type1 CBW { { 0x98 }, "CBW: Convert Byte to Word" };
