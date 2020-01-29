@@ -4,6 +4,26 @@
 
 #include "cppasm.h"
 
+r8 AL { "AL" };
+r8 AH { "AH" };
+r8 BL { "BL" };
+r8 BH { "BH" };
+r8 CL { "CL" };
+r8 CH { "CH" };
+r8 DL { "DL" };
+r8 DH { "DH" };
+r8 SIL { "SIL" };
+r8 DIL { "DIL" };
+r8 SPL { "SPL" };
+r8 R8L { "R8L" };
+r8 R9L { "R9L" };
+r8 R10L { "R10L" };
+r8 R11L { "R11L" };
+r8 R12L { "R12L" };
+r8 R13L { "R13L" };
+r8 R14L { "R14L" };
+r8 R15L { "R15L" };
+
 Instruction1_Type1 AAA { { 0x37 }, "AAA: ASCII Adjust After Addition" };
 Instruction1_Type1 AAS { { 0x3F }, "AAS: ASCII Adjust AL After Subtraction" };
 Instruction1_Type1 CBW { { 0x98 }, "CBW: Convert Byte to Word" };

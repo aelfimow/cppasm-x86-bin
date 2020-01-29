@@ -17,6 +17,28 @@
 #include "Instruction_x.h"
 #include "Instruction1_Types.h"
 
+#include "r8.h"
+
+extern r8 AL;
+extern r8 AH;
+extern r8 BL;
+extern r8 BH;
+extern r8 CL;
+extern r8 CH;
+extern r8 DL;
+extern r8 DH;
+extern r8 SIL;
+extern r8 DIL;
+extern r8 SPL;
+extern r8 R8L;
+extern r8 R9L;
+extern r8 R10L;
+extern r8 R11L;
+extern r8 R12L;
+extern r8 R13L;
+extern r8 R14L;
+extern r8 R15L;
+
 extern Instruction1_Type1 AAA;
 extern Instruction1_Type1 AAS;
 extern Instruction1_Type1 CBW;
