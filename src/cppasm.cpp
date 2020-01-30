@@ -260,3 +260,4 @@ Instruction1_Type1 MOVSB { { 0xA4 }, "MOVSB: Move Data from String to String" };
 Instruction1_Type1 MOVSW { { 0xA5 }, "MOVSW: Move Data from String to String" };
 Instruction1_Type1 MOVSD { { 0xA5 }, "MOVSD: Move Data from String to String" };
 Instruction1_Type1 MOVSQ { { 0xA5 }, "MOVSQ: Move Data from String to String" };
+Instruction1_Type1 MWAIT { { 0x0F, 0x01, 0xC9 }, "MWAIT: Monitor Wait" };
