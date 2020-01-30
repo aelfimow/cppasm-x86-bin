@@ -27,6 +27,8 @@
 #include "mm.h"
 #include "Sreg.h"
 #include "cr.h"
+#include "dr.h"
+#include "opmask_reg.h"
 
 extern r8 AL;
 extern r8 AH;
@@ -200,6 +202,15 @@ extern dr DR4;
 extern dr DR5;
 extern dr DR6;
 extern dr DR7;
+
+extern opmask_reg k0;
+extern opmask_reg k1;
+extern opmask_reg k2;
+extern opmask_reg k3;
+extern opmask_reg k4;
+extern opmask_reg k5;
+extern opmask_reg k6;
+extern opmask_reg k7;
 
 extern Instruction1_Type1 AAA;
 extern Instruction1_Type1 AAS;

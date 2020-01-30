@@ -177,6 +177,15 @@ dr DR5 { "DR5" };
 dr DR6 { "DR6" };
 dr DR7 { "DR7" };
 
+opmask_reg k0 { "k0" };
+opmask_reg k1 { "k1" };
+opmask_reg k2 { "k2" };
+opmask_reg k3 { "k3" };
+opmask_reg k4 { "k4" };
+opmask_reg k5 { "k5" };
+opmask_reg k6 { "k6" };
+opmask_reg k7 { "k7" };
+
 Instruction1_Type1 AAA { { 0x37 }, "AAA: ASCII Adjust After Addition" };
 Instruction1_Type1 AAS { { 0x3F }, "AAS: ASCII Adjust AL After Subtraction" };
 Instruction1_Type1 CBW { { 0x98 }, "CBW: Convert Byte to Word" };
