@@ -25,6 +25,7 @@
 #include "ymm.h"
 #include "zmm.h"
 #include "mm.h"
+#include "Sreg.h"
 
 extern r8 AL;
 extern r8 AH;
@@ -172,6 +173,13 @@ extern mm MM4;
 extern mm MM5;
 extern mm MM6;
 extern mm MM7;
+
+extern Sreg CS;
+extern Sreg DS;
+extern Sreg SS;
+extern Sreg ES;
+extern Sreg FS;
+extern Sreg GS;
 
 extern Instruction1_Type1 AAA;
 extern Instruction1_Type1 AAS;

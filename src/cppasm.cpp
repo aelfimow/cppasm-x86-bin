@@ -151,6 +151,13 @@ mm MM5 { "MM5" };
 mm MM6 { "MM6" };
 mm MM7 { "MM7" };
 
+Sreg CS { "CS" };
+Sreg DS { "DS" };
+Sreg SS { "SS" };
+Sreg ES { "ES" };
+Sreg FS { "FS" };
+Sreg GS { "GS" };
+
 Instruction1_Type1 AAA { { 0x37 }, "AAA: ASCII Adjust After Addition" };
 Instruction1_Type1 AAS { { 0x3F }, "AAS: ASCII Adjust AL After Subtraction" };
 Instruction1_Type1 CBW { { 0x98 }, "CBW: Convert Byte to Word" };
