@@ -256,3 +256,7 @@ Instruction1_Type1 LFENCE { { 0x0F, 0xAE, 0xE8 }, "LFENCE: Load Fence" };
 Instruction1_Type1 LOCK { { 0xF0 }, "LOCK: Assert LOCK# Signal Prefix" };
 Instruction1_Type1 MFENCE { { 0x0F, 0xAE, 0xF0 }, "MFENCE: Memory Fence" };
 Instruction1_Type1 MONITOR { { 0x0F, 0x01, 0xC8 }, "MONITOR: Set Up Monitor Address" };
+Instruction1_Type1 MOVSB { { 0xA4 }, "MOVSB: Move Data from String to String" };
+Instruction1_Type1 MOVSW { { 0xA5 }, "MOVSW: Move Data from String to String" };
+Instruction1_Type1 MOVSD { { 0xA5 }, "MOVSD: Move Data from String to String" };
+Instruction1_Type1 MOVSQ { { 0xA5 }, "MOVSQ: Move Data from String to String" };

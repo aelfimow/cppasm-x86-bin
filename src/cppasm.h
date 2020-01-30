@@ -283,5 +283,9 @@ extern Instruction1_Type1 LFENCE;
 extern Instruction1_Type1 LOCK;
 extern Instruction1_Type1 MFENCE;
 extern Instruction1_Type1 MONITOR;
+extern Instruction1_Type1 MOVSB;
+extern Instruction1_Type1 MOVSW;
+extern Instruction1_Type1 MOVSD;
+extern Instruction1_Type1 MOVSQ;
 
 #endif
