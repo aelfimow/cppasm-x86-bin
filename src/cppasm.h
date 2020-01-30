@@ -24,6 +24,7 @@
 #include "xmm.h"
 #include "ymm.h"
 #include "zmm.h"
+#include "mm.h"
 
 extern r8 AL;
 extern r8 AH;
@@ -162,6 +163,15 @@ extern zmm ZMM28;
 extern zmm ZMM29;
 extern zmm ZMM30;
 extern zmm ZMM31;
+
+extern mm MM0;
+extern mm MM1;
+extern mm MM2;
+extern mm MM3;
+extern mm MM4;
+extern mm MM5;
+extern mm MM6;
+extern mm MM7;
 
 extern Instruction1_Type1 AAA;
 extern Instruction1_Type1 AAS;

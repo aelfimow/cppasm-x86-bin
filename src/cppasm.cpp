@@ -142,6 +142,15 @@ zmm ZMM29 { "ZMM29" };
 zmm ZMM30 { "ZMM30" };
 zmm ZMM31 { "ZMM31" };
 
+mm MM0 { "MM0" };
+mm MM1 { "MM1" };
+mm MM2 { "MM2" };
+mm MM3 { "MM3" };
+mm MM4 { "MM4" };
+mm MM5 { "MM5" };
+mm MM6 { "MM6" };
+mm MM7 { "MM7" };
+
 Instruction1_Type1 AAA { { 0x37 }, "AAA: ASCII Adjust After Addition" };
 Instruction1_Type1 AAS { { 0x3F }, "AAS: ASCII Adjust AL After Subtraction" };
 Instruction1_Type1 CBW { { 0x98 }, "CBW: Convert Byte to Word" };
