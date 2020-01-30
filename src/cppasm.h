@@ -29,6 +29,7 @@
 #include "cr.h"
 #include "dr.h"
 #include "opmask_reg.h"
+#include "st.h"
 
 extern r8 AL;
 extern r8 AH;
@@ -202,6 +203,8 @@ extern dr DR4;
 extern dr DR5;
 extern dr DR6;
 extern dr DR7;
+
+extern st ST;
 
 extern opmask_reg k0;
 extern opmask_reg k1;

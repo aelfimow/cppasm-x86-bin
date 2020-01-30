@@ -177,6 +177,8 @@ dr DR5 { "DR5" };
 dr DR6 { "DR6" };
 dr DR7 { "DR7" };
 
+st ST;
+
 opmask_reg k0 { "k0" };
 opmask_reg k1 { "k1" };
 opmask_reg k2 { "k2" };
