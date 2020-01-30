@@ -168,6 +168,15 @@ cr CR6 { "CR6" };
 cr CR7 { "CR7" };
 cr CR8 { "CR8" };
 
+dr DR0 { "DR0" };
+dr DR1 { "DR1" };
+dr DR2 { "DR2" };
+dr DR3 { "DR3" };
+dr DR4 { "DR4" };
+dr DR5 { "DR5" };
+dr DR6 { "DR6" };
+dr DR7 { "DR7" };
+
 Instruction1_Type1 AAA { { 0x37 }, "AAA: ASCII Adjust After Addition" };
 Instruction1_Type1 AAS { { 0x3F }, "AAS: ASCII Adjust AL After Subtraction" };
 Instruction1_Type1 CBW { { 0x98 }, "CBW: Convert Byte to Word" };

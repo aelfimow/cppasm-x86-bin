@@ -192,6 +192,15 @@ extern cr CR6;
 extern cr CR7;
 extern cr CR8;
 
+extern dr DR0;
+extern dr DR1;
+extern dr DR2;
+extern dr DR3;
+extern dr DR4;
+extern dr DR5;
+extern dr DR6;
+extern dr DR7;
+
 extern Instruction1_Type1 AAA;
 extern Instruction1_Type1 AAS;
 extern Instruction1_Type1 CBW;
