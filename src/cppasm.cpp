@@ -158,6 +158,16 @@ Sreg ES { "ES" };
 Sreg FS { "FS" };
 Sreg GS { "GS" };
 
+cr CR0 { "CR0" };
+cr CR1 { "CR1" };
+cr CR2 { "CR2" };
+cr CR3 { "CR3" };
+cr CR4 { "CR4" };
+cr CR5 { "CR5" };
+cr CR6 { "CR6" };
+cr CR7 { "CR7" };
+cr CR8 { "CR8" };
+
 Instruction1_Type1 AAA { { 0x37 }, "AAA: ASCII Adjust After Addition" };
 Instruction1_Type1 AAS { { 0x3F }, "AAS: ASCII Adjust AL After Subtraction" };
 Instruction1_Type1 CBW { { 0x98 }, "CBW: Convert Byte to Word" };
