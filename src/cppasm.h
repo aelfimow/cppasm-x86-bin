@@ -282,5 +282,6 @@ extern Instruction1_Type1 LEAVE;
 extern Instruction1_Type1 LFENCE;
 extern Instruction1_Type1 LOCK;
 extern Instruction1_Type1 MFENCE;
+extern Instruction1_Type1 MONITOR;
 
 #endif
