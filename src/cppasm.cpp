@@ -264,3 +264,4 @@ Instruction1_Type1 MWAIT { { 0x0F, 0x01, 0xC9 }, "MWAIT: Monitor Wait" };
 Instruction1_Type1 OUTSB { { 0x6E }, "OUTSB: Output String to Port" };
 Instruction1_Type1 OUTSW { { 0x6F }, "OUTSW: Output String to Port" };
 Instruction1_Type1 OUTSD { { 0x6F }, "OUTSD: Output String to Port" };
+Instruction1_Type1 PAUSE { { 0xF3, 0x90 }, "PAUSE: Spin Loop Hint" };
