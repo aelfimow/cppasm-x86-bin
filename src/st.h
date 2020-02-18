@@ -9,6 +9,11 @@
 class st
 {
     public:
+        st() :
+            m_name { }
+        {
+        }
+
         st(comment_t const &name) :
             m_name { name }
         {
@@ -22,7 +27,6 @@ class st
         comment_t const m_name;
 
     private:
-        st() = delete;
         st(st const &instance) = delete;
         st(st &&instance) = delete;
         st &operator=(st const &instance) = delete;
