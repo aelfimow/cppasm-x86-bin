@@ -261,3 +261,6 @@ Instruction1_Type1 MOVSW { { 0xA5 }, "MOVSW: Move Data from String to String" };
 Instruction1_Type1 MOVSD { { 0xA5 }, "MOVSD: Move Data from String to String" };
 Instruction1_Type1 MOVSQ { { 0xA5 }, "MOVSQ: Move Data from String to String" };
 Instruction1_Type1 MWAIT { { 0x0F, 0x01, 0xC9 }, "MWAIT: Monitor Wait" };
+Instruction1_Type1 OUTSB { { 0x6E }, "OUTSB: Output String to Port" };
+Instruction1_Type1 OUTSW { { 0x6F }, "OUTSW: Output String to Port" };
+Instruction1_Type1 OUTSD { { 0x6F }, "OUTSD: Output String to Port" };

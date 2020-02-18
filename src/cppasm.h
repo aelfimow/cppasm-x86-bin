@@ -288,5 +288,8 @@ extern Instruction1_Type1 MOVSW;
 extern Instruction1_Type1 MOVSD;
 extern Instruction1_Type1 MOVSQ;
 extern Instruction1_Type1 MWAIT;
+extern Instruction1_Type1 OUTSB;
+extern Instruction1_Type1 OUTSW;
+extern Instruction1_Type1 OUTSD;
 
 #endif
