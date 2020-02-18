@@ -294,5 +294,8 @@ extern Instruction1_Type1 OUTSD;
 extern Instruction1_Type1 PAUSE;
 extern Instruction1_Type1 POPA;
 extern Instruction1_Type1 POPAD;
+extern Instruction1_Type1 POPF;
+extern Instruction1_Type1 POPFD;
+extern Instruction1_Type1 POPFQ;
 
 #endif

@@ -267,3 +267,6 @@ Instruction1_Type1 OUTSD { { 0x6F }, "OUTSD: Output String to Port" };
 Instruction1_Type1 PAUSE { { 0xF3, 0x90 }, "PAUSE: Spin Loop Hint" };
 Instruction1_Type1 POPA { { 0x61 }, "POPA: Pop All General-Purpose Registers" };
 Instruction1_Type1 POPAD { { 0x61 }, "POPAD: Pop All General-Purpose Registers" };
+Instruction1_Type1 POPF { { 0x9D }, "POPF: Pop Stack into EFLAGS Register" };
+Instruction1_Type1 POPFD { { 0x9D }, "POPFD: Pop Stack into EFLAGS Register" };
+Instruction1_Type1 POPFQ { { 0x9D }, "POPFQ: Pop Stack into EFLAGS Register" };
