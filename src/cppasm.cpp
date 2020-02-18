@@ -272,3 +272,6 @@ Instruction1_Type1 POPFD { { 0x9D }, "POPFD: Pop Stack into EFLAGS Register" };
 Instruction1_Type1 POPFQ { { 0x9D }, "POPFQ: Pop Stack into EFLAGS Register" };
 Instruction1_Type1 PUSHA { { 0x60 }, "PUSHA: Push All General-Purpose Registers" };
 Instruction1_Type1 PUSHAD { { 0x60 }, "PUSHAD: Push All General-Purpose Registers" };
+Instruction1_Type1 PUSHF { { 0x9C }, "PUSHF: Push EFLAGS Register onto the Stack" };
+Instruction1_Type1 PUSHFD { { 0x9C }, "PUSHFD: Push EFLAGS Register onto the Stack" };
+Instruction1_Type1 PUSHFQ { { 0x9C }, "PUSHFQ: Push EFLAGS Register onto the Stack" };

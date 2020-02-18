@@ -299,5 +299,8 @@ extern Instruction1_Type1 POPFD;
 extern Instruction1_Type1 POPFQ;
 extern Instruction1_Type1 PUSHA;
 extern Instruction1_Type1 PUSHAD;
+extern Instruction1_Type1 PUSHF;
+extern Instruction1_Type1 PUSHFD;
+extern Instruction1_Type1 PUSHFQ;
 
 #endif
