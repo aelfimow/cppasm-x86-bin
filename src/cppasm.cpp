@@ -275,3 +275,4 @@ Instruction1_Type1 PUSHAD { { 0x60 }, "PUSHAD: Push All General-Purpose Register
 Instruction1_Type1 PUSHF { { 0x9C }, "PUSHF: Push EFLAGS Register onto the Stack" };
 Instruction1_Type1 PUSHFD { { 0x9C }, "PUSHFD: Push EFLAGS Register onto the Stack" };
 Instruction1_Type1 PUSHFQ { { 0x9C }, "PUSHFQ: Push EFLAGS Register onto the Stack" };
+Instruction1_Type1 RDMSR { { 0x0F, 0x32 }, "RDMSR: Read from Model Specific Register" };

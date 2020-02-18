@@ -302,5 +302,6 @@ extern Instruction1_Type1 PUSHAD;
 extern Instruction1_Type1 PUSHF;
 extern Instruction1_Type1 PUSHFD;
 extern Instruction1_Type1 PUSHFQ;
+extern Instruction1_Type1 RDMSR;
 
 #endif
