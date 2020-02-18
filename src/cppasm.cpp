@@ -270,3 +270,5 @@ Instruction1_Type1 POPAD { { 0x61 }, "POPAD: Pop All General-Purpose Registers" 
 Instruction1_Type1 POPF { { 0x9D }, "POPF: Pop Stack into EFLAGS Register" };
 Instruction1_Type1 POPFD { { 0x9D }, "POPFD: Pop Stack into EFLAGS Register" };
 Instruction1_Type1 POPFQ { { 0x9D }, "POPFQ: Pop Stack into EFLAGS Register" };
+Instruction1_Type1 PUSHA { { 0x60 }, "PUSHA: Push All General-Purpose Registers" };
+Instruction1_Type1 PUSHAD { { 0x60 }, "PUSHAD: Push All General-Purpose Registers" };

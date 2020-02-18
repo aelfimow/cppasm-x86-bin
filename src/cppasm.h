@@ -297,5 +297,7 @@ extern Instruction1_Type1 POPAD;
 extern Instruction1_Type1 POPF;
 extern Instruction1_Type1 POPFD;
 extern Instruction1_Type1 POPFQ;
+extern Instruction1_Type1 PUSHA;
+extern Instruction1_Type1 PUSHAD;
 
 #endif
