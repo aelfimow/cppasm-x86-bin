@@ -284,3 +284,4 @@ Instruction1_Type1 RSM { { 0x0F, 0xAA }, "RSM: Resume from System Management Mod
 Instruction1_Type1 SAHF { { 0x9E }, "SAHF: Store AH into Flags" };
 Instruction1_Type1 SAVEPREVSSP { { 0xF3, 0x0F, 0x01, 0xEA }, "SAVEPREVSSP: Save Previous Shadow Stack Pointer" };
 Instruction1_Type1 SETSSBSY { { 0xF3, 0x0F, 0x01, 0xE8 }, "SETSSBSY: Mark Shadow Stack Busy" };
+Instruction1_Type1 SFENCE { { 0x0F, 0xAE, 0xF8 }, "SFENCE: Store Fence" };
