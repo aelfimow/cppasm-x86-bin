@@ -308,5 +308,6 @@ extern Instruction1_Type1 RDPMC;
 extern Instruction1_Type1 RDTSC;
 extern Instruction1_Type1 RDTSCP;
 extern Instruction1_Type1 RSM;
+extern Instruction1_Type1 SAHF;
 
 #endif

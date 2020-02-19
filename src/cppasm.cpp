@@ -281,3 +281,4 @@ Instruction1_Type1 RDPMC { { 0x0F, 0x33 }, "RDPMC: Read Performance-Monitoring C
 Instruction1_Type1 RDTSC { { 0x0F, 0x31 }, "RDTSC: Read Time-Stamp Counter" };
 Instruction1_Type1 RDTSCP { { 0x0F, 0x01, 0xF9 }, "RDTSCP: Read Time-Stamp Counter and Processor ID" };
 Instruction1_Type1 RSM { { 0x0F, 0xAA }, "RSM: Resume from System Management Mode" };
+Instruction1_Type1 SAHF { { 0x9E }, "SAHF: Store AH into Flags" };
