@@ -278,3 +278,4 @@ Instruction1_Type1 PUSHFQ { { 0x9C }, "PUSHFQ: Push EFLAGS Register onto the Sta
 Instruction1_Type1 RDMSR { { 0x0F, 0x32 }, "RDMSR: Read from Model Specific Register" };
 Instruction1_Type1 RDPKRU { { 0x0F, 0x01, 0xEE }, "RDPKRU: Read Protection Key Rights for User Pages" };
 Instruction1_Type1 RDPMC { { 0x0F, 0x33 }, "RDPMC: Read Performance-Monitoring Counters" };
+Instruction1_Type1 RDTSC { { 0x0F, 0x31 }, "RDTSC: Read Time-Stamp Counter" };
