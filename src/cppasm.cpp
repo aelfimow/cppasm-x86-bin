@@ -296,3 +296,4 @@ Instruction1_Type1 STOSQ { { 0xAB }, "STOSQ: Store String" };
 Instruction1_Type1 SWAPGS { { 0x0F, 0x01, 0xF8 }, "SWAPGS: Swap GS Base Register" };
 Instruction1_Type1 SYSCALL { { 0x0F, 0x05 }, "SYSCALL: Fast System Call" };
 Instruction1_Type1 SYSENTER { { 0x0F, 0x34 }, "SYSENTER: Fast System Call" };
+Instruction1_Type1 SYSEXIT { { 0x }, "SYSEXIT: Fast Return from Fast System Call" };

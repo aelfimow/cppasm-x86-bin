@@ -323,5 +323,6 @@ extern Instruction1_Type1 STOSQ;
 extern Instruction1_Type1 SWAPGS;
 extern Instruction1_Type1 SYSCALL;
 extern Instruction1_Type1 SYSENTER;
+extern Instruction1_Type1 SYSEXIT;
 
 #endif
