@@ -325,5 +325,6 @@ extern Instruction1_Type1 SYSCALL;
 extern Instruction1_Type1 SYSENTER;
 extern Instruction1_Type1 SYSEXIT;
 extern Instruction1_Type1 SYSRET;
+extern Instruction1_Type1 UD2;
 
 #endif
