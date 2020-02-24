@@ -312,5 +312,6 @@ extern Instruction1_Type1 SAHF;
 extern Instruction1_Type1 SAVEPREVSSP;
 extern Instruction1_Type1 SETSSBSY;
 extern Instruction1_Type1 SFENCE;
+extern Instruction1_Type1 STAC;
 
 #endif
