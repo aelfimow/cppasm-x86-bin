@@ -316,5 +316,9 @@ extern Instruction1_Type1 STAC;
 extern Instruction1_Type1 STC;
 extern Instruction1_Type1 STD;
 extern Instruction1_Type1 STI;
+extern Instruction1_Type1 STOSB;
+extern Instruction1_Type1 STOSW;
+extern Instruction1_Type1 STOSD;
+extern Instruction1_Type1 STOSQ;
 
 #endif

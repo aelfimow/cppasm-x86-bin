@@ -289,3 +289,7 @@ Instruction1_Type1 STAC { { 0x0F, 0x01, 0xCB }, "STAC: Set AC Flag in EFLAGS Reg
 Instruction1_Type1 STC { { 0xF9 }, "STC: Set Carry Flag" };
 Instruction1_Type1 STD { { 0xFD }, "STD: Set Direction Flag" };
 Instruction1_Type1 STI { { 0xFB }, "STI: Set Interrupt Flag" };
+Instruction1_Type1 STOSB { { 0xAA }, "STOSB: Store String" };
+Instruction1_Type1 STOSW { { 0xAB }, "STOSW: Store String" };
+Instruction1_Type1 STOSD { { 0xAB }, "STOSD: Store String" };
+Instruction1_Type1 STOSQ { { 0xAB }, "STOSQ: Store String" };
