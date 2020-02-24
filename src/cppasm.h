@@ -330,5 +330,6 @@ extern Instruction1_Type1 WAIT;
 extern Instruction1_Type1 FWAIT;
 extern Instruction1_Type1 WBINVD;
 extern Instruction1_Type1 WRMSR;
+extern Instruction1_Type1 WRPKRU;
 
 #endif

@@ -303,3 +303,4 @@ Instruction1_Type1 WAIT { { 0x9B }, "WAIT: Wait" };
 Instruction1_Type1 FWAIT { { 0x9B }, "FWAIT: Wait" };
 Instruction1_Type1 WBINVD { { 0x0F, 0x09 }, "WBINVD: Write Back and Invalidate Cache" };
 Instruction1_Type1 WRMSR { { 0x0F, 0x30 }, "WRMSR: Write to Model Specific Register" };
+Instruction1_Type1 WRPKRU { { 0x0F, 0x01, 0xEF }, "WRPKRU: Write Data to User Page Key Register" };
