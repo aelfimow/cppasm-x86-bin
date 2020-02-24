@@ -315,5 +315,6 @@ extern Instruction1_Type1 SFENCE;
 extern Instruction1_Type1 STAC;
 extern Instruction1_Type1 STC;
 extern Instruction1_Type1 STD;
+extern Instruction1_Type1 STI;
 
 #endif

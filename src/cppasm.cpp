@@ -288,3 +288,4 @@ Instruction1_Type1 SFENCE { { 0x0F, 0xAE, 0xF8 }, "SFENCE: Store Fence" };
 Instruction1_Type1 STAC { { 0x0F, 0x01, 0xCB }, "STAC: Set AC Flag in EFLAGS Register" };
 Instruction1_Type1 STC { { 0xF9 }, "STC: Set Carry Flag" };
 Instruction1_Type1 STD { { 0xFD }, "STD: Set Direction Flag" };
+Instruction1_Type1 STI { { 0xFB }, "STI: Set Interrupt Flag" };
