@@ -299,3 +299,5 @@ Instruction1_Type1 SYSENTER { { 0x0F, 0x34 }, "SYSENTER: Fast System Call" };
 Instruction1_Type1 SYSEXIT { { 0x0F, 0x35 }, "SYSEXIT: Fast Return from Fast System Call" };
 Instruction1_Type1 SYSRET { { 0x0F, 0x07 }, "SYSRET: Return From Fast System Call" };
 Instruction1_Type1 UD2 { { 0x0F, 0x0B }, "UD2: Undefined Instruction 2" };
+Instruction1_Type1 WAIT { { 0x9B }, "WAIT: Wait" };
+Instruction1_Type1 FWAIT { { 0x9B }, "FWAIT: Wait" };
