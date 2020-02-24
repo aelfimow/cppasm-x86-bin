@@ -320,5 +320,6 @@ extern Instruction1_Type1 STOSB;
 extern Instruction1_Type1 STOSW;
 extern Instruction1_Type1 STOSD;
 extern Instruction1_Type1 STOSQ;
+extern Instruction1_Type1 SWAPGS;
 
 #endif
