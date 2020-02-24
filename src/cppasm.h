@@ -328,5 +328,6 @@ extern Instruction1_Type1 SYSRET;
 extern Instruction1_Type1 UD2;
 extern Instruction1_Type1 WAIT;
 extern Instruction1_Type1 FWAIT;
+extern Instruction1_Type1 WBINVD;
 
 #endif
