@@ -4,6 +4,8 @@
 
 #include "cppasm.h"
 
+asmstream cppasm_stream;
+
 r8 AL { "AL" };
 r8 AH { "AH" };
 r8 BL { "BL" };

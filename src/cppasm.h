@@ -11,6 +11,9 @@
 #include <initializer_list>
 
 #include "cppasm_types.h"
+#include "asmstream.h"
+
+extern asmstream cppasm_stream;
 
 #include "OperandEncoding.h"
 
