@@ -13,6 +13,11 @@ class asmstream
         asmstream();
         ~asmstream();
 
+        void byte(opcode_seq_t const &seq);
+
+    private:
+        std::string to_str(opcode_t const &c) const;
+
     public:
         asmstream(const asmstream &instance) = delete;
         asmstream(asmstream &&instance) = delete;
