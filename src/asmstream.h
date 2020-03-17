@@ -13,7 +13,7 @@ class asmstream
         asmstream();
         ~asmstream();
 
-        void byte(opcode_seq_t const &seq);
+        void byte(std::vector<opcode_t> const &seq);
 
     private:
         std::string to_str(opcode_t const &c) const;

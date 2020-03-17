@@ -16,7 +16,7 @@ asmstream::~asmstream()
 {
 }
 
-void asmstream::byte(opcode_seq_t const &seq)
+void asmstream::byte(std::vector<opcode_t> const &seq)
 {
     std::cout << ".byte ";
 
