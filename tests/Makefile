@@ -5,11 +5,13 @@ CXXFLAGS += -pedantic
 CXXFLAGS += -Weffc++
 CXXFLAGS += -std=c++17
 
-ASFLAGS64  = --64
+ASFLAGS32  = --32
 
 CPPASM_OBJ = ../src/obj/*.o
 
 INCDIR = ../src
+
+OBJDUMP = objdump
 
 all: compile link generate test1
 
@@ -27,4 +29,5 @@ generate:
 
 .PHONY: test1
 test1:
-	${AS} test1-gen.S ${ASFLAGS64} -o test1-gen.o
+	${AS} test1-gen.S ${ASFLAGS32} -o test1-gen.o
+	${OBJDUMP} --disassemble-all test1-gen.o > test1-gen-dump.txt
