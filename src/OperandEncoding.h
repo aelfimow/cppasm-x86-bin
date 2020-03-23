@@ -35,6 +35,7 @@ class ZO: public OpEn
 
         void operator()()
         {
+            cppasm_stream.comment(m_c);
             cppasm_stream.byte(m_opc);
         }
 
