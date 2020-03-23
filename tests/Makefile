@@ -19,12 +19,12 @@ compile:
 
 .PHONY: link
 link:
-	${CXX} *.o ${CPPASM_OBJ} -o test1.exe ${CXXFLAGS}
+	${CXX} test1.o ${CPPASM_OBJ} -o test1.exe ${CXXFLAGS}
 
 .PHONY: generate
 generate:
-	test1.exe
+	test1.exe > test1-gen.S
 
 .PHONY: test1
 test1:
-	${AS} test1.S ${ASFLAGS64} -o test1.o
+	${AS} test1-gen.S ${ASFLAGS64} -o test1-gen.o
