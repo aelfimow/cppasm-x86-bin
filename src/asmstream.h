@@ -13,6 +13,7 @@ class asmstream
         asmstream();
         ~asmstream();
 
+        void comment(comment_t const &cmt);
         void byte(std::vector<opcode_t> const &seq);
 
     private:

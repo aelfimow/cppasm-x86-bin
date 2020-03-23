@@ -16,6 +16,11 @@ asmstream::~asmstream()
 {
 }
 
+void asmstream::comment(comment_t const &cmt)
+{
+    std::cout << "# " << cmt << std::endl;
+}
+
 void asmstream::byte(std::vector<opcode_t> const &seq)
 {
     std::cout << ".byte ";
