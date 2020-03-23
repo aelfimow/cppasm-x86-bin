@@ -49,7 +49,7 @@ std::string asmstream::to_str(opcode_t const &c) const
 
     std::ostringstream ss;
 
-    ss << "$0x" << std::setfill('0') << std::setw(total_chars) << std::hex << std::uppercase;
+    ss << "0x" << std::setfill('0') << std::setw(total_chars) << std::hex << std::uppercase;
     ss << static_cast<size_t>(c);
 
     return ss.str();
