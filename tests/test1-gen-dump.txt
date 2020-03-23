@@ -6,6 +6,120 @@ Disassembly of section .text:
 
 00000000 <.text>:
    0:	37                   	aaa    
-   1:	90                   	nop
-   2:	90                   	nop
-   3:	90                   	nop
+   1:	3f                   	aas    
+   2:	98                   	cwtl   
+   3:	98                   	cwtl   
+   4:	98                   	cwtl   
+   5:	f8                   	clc    
+   6:	fc                   	cld    
+   7:	fa                   	cli    
+   8:	0f 06                	clts   
+   a:	f5                   	cmc    
+   b:	a6                   	cmpsb  %es:(%edi),%ds:(%esi)
+   c:	a7                   	cmpsl  %es:(%edi),%ds:(%esi)
+   d:	a7                   	cmpsl  %es:(%edi),%ds:(%esi)
+   e:	a7                   	cmpsl  %es:(%edi),%ds:(%esi)
+   f:	0f a2                	cpuid  
+  11:	99                   	cltd   
+  12:	99                   	cltd   
+  13:	99                   	cltd   
+  14:	27                   	daa    
+  15:	2f                   	das    
+  16:	0f 77                	emms   
+  18:	f3 0f 1e fb          	endbr32 
+  1c:	f3 0f 1e fa          	endbr64 
+  20:	d9 f0                	f2xm1  
+  22:	d9 e1                	fabs   
+  24:	d9 e0                	fchs   
+  26:	9b db e2             	fclex  
+  29:	db e2                	fnclex 
+  2b:	d9 ff                	fcos   
+  2d:	d9 f6                	fdecstp 
+  2f:	d9 f7                	fincstp 
+  31:	9b db e3             	finit  
+  34:	db e3                	fninit 
+  36:	d9 e8                	fld1   
+  38:	d9 e9                	fldl2t 
+  3a:	d9 ea                	fldl2e 
+  3c:	d9 eb                	fldpi  
+  3e:	d9 ec                	fldlg2 
+  40:	d9 ed                	fldln2 
+  42:	d9 ee                	fldz   
+  44:	d9 d0                	fnop   
+  46:	d9 f3                	fpatan 
+  48:	d9 f8                	fprem  
+  4a:	d9 f5                	fprem1 
+  4c:	d9 f2                	fptan  
+  4e:	d9 fc                	frndint 
+  50:	d9 fd                	fscale 
+  52:	d9 fb                	fsincos 
+  54:	d9 fa                	fsqrt  
+  56:	d9 e4                	ftst   
+  58:	d9 e5                	fxam   
+  5a:	d9 f4                	fxtract 
+  5c:	d9 f1                	fyl2x  
+  5e:	d9 f9                	fyl2xp1 
+  60:	f4                   	hlt    
+  61:	ce                   	into   
+  62:	f1                   	icebp  
+  63:	cc                   	int3   
+  64:	0f 08                	invd   
+  66:	cf                   	iret   
+  67:	cf                   	iret   
+  68:	cf                   	iret   
+  69:	9f                   	lahf   
+  6a:	c9                   	leave  
+  6b:	0f ae e8             	lfence 
+  6e:	f0 0f ae f0          	lock mfence 
+  72:	0f 01 c8             	monitor %eax,%ecx,%edx
+  75:	a4                   	movsb  %ds:(%esi),%es:(%edi)
+  76:	a5                   	movsl  %ds:(%esi),%es:(%edi)
+  77:	a5                   	movsl  %ds:(%esi),%es:(%edi)
+  78:	a5                   	movsl  %ds:(%esi),%es:(%edi)
+  79:	0f 01 c9             	mwait  %eax,%ecx
+  7c:	6e                   	outsb  %ds:(%esi),(%dx)
+  7d:	6f                   	outsl  %ds:(%esi),(%dx)
+  7e:	6f                   	outsl  %ds:(%esi),(%dx)
+  7f:	f3 90                	pause  
+  81:	61                   	popa   
+  82:	61                   	popa   
+  83:	9d                   	popf   
+  84:	9d                   	popf   
+  85:	9d                   	popf   
+  86:	60                   	pusha  
+  87:	60                   	pusha  
+  88:	9c                   	pushf  
+  89:	9c                   	pushf  
+  8a:	9c                   	pushf  
+  8b:	0f 32                	rdmsr  
+  8d:	0f 01 ee             	rdpkru 
+  90:	0f 33                	rdpmc  
+  92:	0f 31                	rdtsc  
+  94:	0f 01 f9             	rdtscp 
+  97:	0f aa                	rsm    
+  99:	9e                   	sahf   
+  9a:	f3 0f 01 ea          	saveprevssp 
+  9e:	f3 0f 01 e8          	setssbsy 
+  a2:	0f ae f8             	sfence 
+  a5:	0f 01 cb             	stac   
+  a8:	f9                   	stc    
+  a9:	fd                   	std    
+  aa:	fb                   	sti    
+  ab:	aa                   	stos   %al,%es:(%edi)
+  ac:	ab                   	stos   %eax,%es:(%edi)
+  ad:	ab                   	stos   %eax,%es:(%edi)
+  ae:	ab                   	stos   %eax,%es:(%edi)
+  af:	0f 01 f8             	swapgs 
+  b2:	0f 05                	syscall 
+  b4:	0f 34                	sysenter 
+  b6:	0f 35                	sysexit 
+  b8:	0f 07                	sysret 
+  ba:	0f 0b                	ud2    
+  bc:	9b                   	fwait
+  bd:	9b                   	fwait
+  be:	0f 09                	wbinvd 
+  c0:	0f 30                	wrmsr  
+  c2:	0f 01 ef             	wrpkru 
+  c5:	90                   	nop
+  c6:	90                   	nop
+  c7:	90                   	nop
