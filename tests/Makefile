@@ -25,7 +25,7 @@ link:
 
 .PHONY: generate
 generate:
-	test1.exe > test1-gen.S
+	./test1.exe > test1-gen.S
 
 .PHONY: test1
 test1:
